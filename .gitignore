@@ -1,0 +1,16 @@
+# Thư mục "két sắt" của Database (Rất lớn!)
+ny_taxi_postgres_data/
+
+# Thư mục "két sắt" của PgAdmin (Chứa cài đặt)
+pgadmin_data/
+
+# Các file dữ liệu đã tải về
+*.parquet
+*.csv
+
+# Trừ file lookup (vì chúng ta muốn giữ nó)
+!taxi_zone_lookup.csv
+
+# Thư mục rác của Jupyter/Python
+.ipynb_checkpoints/
+__pycache__/
